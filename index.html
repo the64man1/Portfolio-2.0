@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>The Portfolio of Max Quintanilla</title>
+  </head>
+  <body>
+    <nav>
+        <div class="nav-wrapper blue darken-3">
+          <a class="head-text">The Portfolio of Max Quintanilla</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <ul class="sidenav sidenav-close" id="mobile-demo">
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+    </ul>
+
+  <section>
+    <div class="hero hero-head flex-center">
+        <div class="center hero-text">
+            <h1 class="hero-title">Max Quintanilla</h1>
+            <h3 class="hero-footer">Junior Software Developer</h3>
+        </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="row container card-panel" id="aboutme">
+      <h3 class="row center">About Me</h3>
+      <div class="row aboutmebox">
+        <img src="./assets/images/Max Quintanilla 019 R web.jpg" class = "col s12 m4" id="picofmax" alt="Pic of Max">
+        <p class = "col s12 m4">
+            I am a front-end web developer, leveraging five years of experience as a practicing general dentist to best serve
+            clients and users in developing interactive and engaging programs. Having completed a certification program
+            in full stack development at Rice University, I developed the skills to use JavaScript, jQuery, Bootstrap, React
+            and other tools to develop responsive, mobile-friendly applications. 
+        </p>
+        <p class = "col s12 m4">
+            I am passionate about precision in my
+            work, solving complex problems, and working with others to build concise, highly functional code.
+            I am excited to continue to expand my skill sets, obtain additional certifications, and grow as a team-player and developer. 
+            In my free time I like to play golf, watch sports, play video games, and traverse the internet in search of ways to better myself as a programmer.
+        </p>
+      </div>
+    </section>
+    
+    <section class="row container-fluid blue darken-3 projects" id="projects">
+        <h3 class="row center">Projects</h3>
+        <div class="row">
+            <div class="col m6 s12">
+                    <div class="row card-panel project1">
+                        <h4>Gooberville-FOODS</h4>
+                        <p class="col s6 project-content">A website where users can search for recipes and save recipes and comments for later</p>
+                        <div class="col s6">
+                          <a href="https://github.com/the64man1/Gooberville-Foods" target="_blank" class="col waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
+                        </div>
+                    <a href="https://the64man1.github.io/Gooberville-Foods/" target="_blank" class="hero link1-pic flex-center projectlink">
+                        <div class="center hero-text">
+                            <p class="link-text">Click to go to deployed site</p>
+                        </div>
+                    </a>
+                    </div>
+            </div>
+            <div class="col m6 s12">
+                <div class="row">
+                        <div class="card-panel project3">
+                          <h4>Code Quiz Challenge</h4>
+                          <p class="col s6 project-content">A quiz game that randomly cycles through 5 coding questions and saves usernames and high scores.</p>
+                          <div class="col s6">
+                            <a href="https://github.com/the64man1/Code_Quiz" target="_blank" class="col waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
+                          </div>
+                          <a class="hero link2-pic flex-center projectlink" href="https://the64man1.github.io/Code_Quiz/" target="_blank" alt="project2">
+                            <div class="center hero-text">
+                                <p class="link-text">Click to go to deployed site</p>
+                            </div>
+                          </a>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="card-panel project2">
+                          <h4>Work-Day Scheduler</h4>
+                          <p class="col s6 project-content">A simple calendar app for scheduling your work day</p>
+                          <div class="col s6">
+                            <a href="https://github.com/the64man1/Work-Day-Scheduler" target="_blank" class="col waves-effect waves-light btn-small"><i class="material-icons right">laptop_mac</i>GitHub Repo</a>
+                          </div>
+                          <a class="hero link3-pic flex-center projectlink" href="https://the64man1.github.io/Work-Day-Scheduler/" target="_blank" alt="project3">
+                            <div class="center hero-text">
+                                <p class="link-text">Click to go to deployed site</p>
+                            </div>
+                          </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer blue darken-3" id="contactme">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h4 class="white-text">Contact Me</h4>
+                    <p class="white-text">Check out my LinkedIn, GitHub, or email me</p>
+                </div>
+                <div class="l4 offset-l1 s12">
+                    <ul>
+                        <li><a class="waves-effect waves-light btn-small" id="linkedin-btn" href="https://www.linkedin.com/in/antonio-quintanilla-067990171/" target="_blank">LinkedIn</a></li>
+                        <li><a class="waves-effect waves-light btn-small" id="github-btn" href="https://github.com/the64man1" target="_blank">GitHub</a></li>
+                        <li><a class="waves-effect waves-light btn-small" id="email-btn" href="mailto:the64man1@yahoo.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+  </script>
+  </body>
+
+</html>

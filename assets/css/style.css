@@ -1,0 +1,202 @@
+html {
+    margin-bottom: 0;
+}
+
+.head-text {
+    font-family: 'Montaga', serif;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.hero-head {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.kuatracks.com/wp-content/uploads/hero-background-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-family: 'Montaga', serif;
+}
+
+.hero-title {
+    color: white;
+}
+
+.hero-footer {
+    color: white;
+}
+
+#about-me {
+    margin: 0 10px 0 10px;
+}
+
+.aboutpic {
+    justify-content: center;
+}
+
+#picofmax {
+    height: 300px;
+    width: 230px;
+    border-radius: 30px;
+}
+
+.projects {
+    color: white;
+    margin: 0 10px 0 10px;
+    border-radius: 25px;
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/03/06/48453/9c8fabc3285c5f9248f7474e9b8ed34f.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.project-content {
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+}
+
+.link1-pic {
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://user-images.githubusercontent.com/74144055/115123180-88398280-9f81-11eb-8a8c-a470dde8ef2a.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.link2-pic {
+    width: 100%;
+    height: 35vh;
+    background-image: url(https://user-images.githubusercontent.com/74144055/112735324-1ee1c900-8f19-11eb-8abb-67b064d4da32.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.link3-pic {
+    width: 100%;
+    height: 35vh;
+    background-image: url(https://user-images.githubusercontent.com/74144055/113490601-c36f8800-9490-11eb-9132-87eb1320ddbb.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-text {
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#project1pic { 
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#project2pic { 
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#project3pic { 
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.project1 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 25px;
+    color: #002a5a;
+}
+
+.project2 {
+    border-radius: 25px;
+    color: #002a5a;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.project3 {
+    border-radius: 25px;
+    color: #002a5a;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.projectlink {
+    color: black;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.projectlink:hover {
+    opacity: 0.5;
+}
+
+.contact-me {
+    margin-top: 0 !important;
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+#linkedin-btn {
+    margin-bottom: 10px;
+}
+
+#github-btn {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 887px) {
+    #aboutme {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .aboutmebox {
+        flex-direction: column;
+    }
+}
