@@ -9,5 +9,7 @@ HTML5, CSS3 (and JavaScript functionally) in conjunction with the Materialize fr
 Link to github repository: https://github.com/the64man1/Portfolio-2.0/<br>
 Link to github pages site hosting the deployed website: https://the64man1.github.io/Portfolio-2.0/<br>
 
+Contact me at aqprogrammer@gmail.com, or on Google Voice at (430) 888-0141
+
 <img src="assets/images/Portfolio2pic1.png"><br>
 <img src="assets/images/Portfolio2pic2.png"><br>
