@@ -11,5 +11,5 @@ Link to github pages site hosting the deployed website: https://the64man1.github
 
 Contact me at aqprogrammer@gmail.com, or on Google Voice at (430) 888-0141
 
-<img src="assets/images/Portfolio2pic1.png"><br>
-<img src="assets/images/Portfolio2pic2.png"><br>
+![The Portfolio of (2)](https://user-images.githubusercontent.com/74144055/123019111-73b8a280-d395-11eb-8bda-75d730d94c66.png)<br>
+![The Portfolio of (3)](https://user-images.githubusercontent.com/74144055/123019190-9fd42380-d395-11eb-9426-be5e5676daa9.png)
